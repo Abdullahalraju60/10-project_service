@@ -1,0 +1,154 @@
+ /*common start*/
+ body{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(221, 69%, 20%);
+ }
+ /*common end*/
+ /*header start*/
+ header{}
+ .container{
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+ }
+ .logo{
+    float: left;
+    width: 15%;
+ }
+ .logo img{
+    width: 100%;
+ }
+ .menu{
+    float: right;
+    width: 55%;
+ }
+ .menu ul{
+    float: right;
+ }
+ .menu ul li {
+    list-style: none;
+    float: left;
+ }
+ .menu ul li a{
+    text-decoration: none;
+    padding: 0 22px;
+    color: #102757;
+    display: block;
+ }
+ .menu ul li:last-child a{
+    padding-right: 0;
+ }
+ .menu ul li a:hover{
+    color: #008aff;
+ }
+ /*header end*/
+ /*banner start*/
+ .banner {
+   padding: 70px 0;
+}
+.con-box {
+   width: 50%;
+   margin: 0 auto; 
+   text-align: center;
+   overflow: hidden;
+}
+.b-h1 {
+   font-size: 50px;
+   font-weight: 700;
+   line-height: 60px;
+}
+.b-h1 span{
+   color: #008aff;
+}
+.b-p {
+   line-height: 25px;
+    
+}
+.b-img {
+   width: 95%;
+}
+.b-img img {
+   margin: 0 auto;
+   width: 100%;
+  
+}
+ /*banner end*/
+ /*feature start*/
+ .feature{ 
+   padding-bottom: 70px; 
+ }
+ .con2{}
+ .f-left{
+   margin: 0;
+   width: 45%; 
+   float: left;
+   text-align: right;
+ }
+ .f-left h2 {
+   margin: 0;
+   font-size: 45px;
+   font-weight: 700;
+   text-align: right;
+   color: red;
+ }
+ .f-left p {
+   margin: 15px 0 0 ;
+   line-height: 25px;
+ }
+ .f-right{
+   width: 48%; 
+   float: right;
+   text-align: left;
+ }
+ .f-right h1{
+   margin: 0;
+   font-size: 40px;
+   font-weight: 700;
+ }
+ /*feature end*/
+ /*services start*/
+ .service{
+   padding-bottom: 70px;
+ }
+/*color start*/
+.s_service:first-child{
+   background-color: #fdebed;
+}
+.s_service:nth-child(2){
+   background-color: #ebf9f4;
+}
+.s_service:last-child{
+   margin: 0;
+   background-color: #fff7e8;
+}
+/*color end*/
+ .s_service{
+   margin-right:2%;
+   width: 32%;
+   padding: 50px 20px 60px;
+   box-sizing: border-box;
+   float: left;
+ }
+ .s_img{}
+ .s_img img{
+   width: 100%;
+   font-weight: 700;
+ }
+ .s_h2{
+   font-size:20px ;
+ }
+ .s_p{
+   line-height: 25px;
+ }
+ /*services end*/
+ /*footer start*/
+footer{
+   height: 50px;
+   background-color: blue;
+   text-align: center;
+   padding-top: 30px;
+   color: white;
+}
+ /*footer end*/
